@@ -8,6 +8,7 @@ import PressAbleComponents from "./components/PressAbleComponents";
 import Modals from "./components/Modals";
 import StatusBarComponent from "./components/StatusBarComponent";
 import ActivityIndicatorComponent from "./components/ActivityIndicatorComponent";
+import AlertComponent from "./components/AlertComponent";
 const image = require("./assets/avatar2.jpg");
 const image2 = "https://picsum.photos/200";
 export default function App() {
@@ -20,6 +21,7 @@ export default function App() {
         <PressAbleComponents />
         <Modals />
         <ActivityIndicatorComponent />
+        <AlertComponent />
       </ScrollView>
     </View>
   );
