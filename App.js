@@ -6,18 +6,19 @@ import ScrollingComponent from "./components/ScrollingComponent";
 import Buttons from "./components/Buttons";
 import PressAbleComponents from "./components/PressAbleComponents";
 import Modals from "./components/Modals";
+import StatusBarComponent from "./components/StatusBarComponent";
 const image = require("./assets/avatar2.jpg");
 const image2 = "https://picsum.photos/200";
 export default function App() {
   return (
     <View className="flex-1 px-2 w-full ">
+      <StatusBarComponent />
       <ScrollView className="">
         <ScrollingComponent />
         <Buttons />
         <PressAbleComponents />
         <Modals />
       </ScrollView>
-      <StatusBar style="auto" />
     </View>
   );
 }
